@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dprint.dev/schemas/v0.json",
+  "projectType": "openSource",
+  "incremental": true,
+  "typescript": {
+    "indentWidth": 2,
+    "quoteStyle": "preferSingle"
+  },
+  "json": {
+  },
+  "markdown": {
+  },
+  "includes": ["**/*.{ts,tsx,js,jsx,json,md}"],
+  "excludes": [
+    "**/node_modules",
+    "**/*-lock.json",
+    "src/**/*.js",
+    "**/*.d.ts"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.44.0.wasm",
+    "https://plugins.dprint.dev/json-0.10.1.wasm",
+    "https://plugins.dprint.dev/markdown-0.6.2.wasm"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es2015.proxy"
+    ],
+    "strict": true,
+    "strictNullChecks": false,
+    "alwaysStrict": true,
+    "declaration": true,
+    "target": "es2015",
+    "allowJs": false,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
+}
